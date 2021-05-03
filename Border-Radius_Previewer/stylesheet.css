@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    background: #242423;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #FFF;
+}
+
+select {
+    cursor: pointer;
+    background: #383a38;
+    color: #FFF;
+    margin-top: 0.1rem;
+    margin-bottom: 0;
+    height: 2.4rem;
+    width: 3.2rem;
+    font-weight: 400;
+}
+
+textarea {
+    width: 18.4rem;
+    height: 3rem;
+    margin-top: 1rem;
+    resize: none;
+    background: #383a38;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxInput {
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.userInput {
+    text-align: center;
+    padding-bottom: 0.2rem;
+    margin-top: 0.1rem;
+    margin-bottom: 0;
+    font-size: 24px;
+    height: 2.4rem;
+    width: 4rem;
+    max-width: fit-content;
+    background: #383a38;
+    color: #FFF;
+    font-weight: 300;
+    border: none;
+}
+
+.boxUnit {
+    margin-left: 0.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.pUnit {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: lowercase;
+    margin-top: 0.1rem;
+    margin-bottom: 0;
+    height: 2.4rem;
+    text-align: start;
+}
+
+.userInput:hover {
+    background: #525352;
+}
+
+#userBox {
+    height: 9.5rem;
+    width: 9.5rem;
+    background: #333533;
+    border-radius: 0;
+    border-style: solid;
+    border-color: #eceee7;
+    border-width: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#applyButton {
+    font-size: 16px;
+}
+
+#cssOutput {
+    background: #333533;
+    color: #eceee7;
+    padding: 0.2rem 0.3rem 0.2rem 0.3rem;
+    text-align: justify;
+    height: 10rem;
+    width: 20rem;
+}
+
+#userButton {
+    margin-top: 1rem;
+}
